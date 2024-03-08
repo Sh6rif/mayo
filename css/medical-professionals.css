@@ -1,0 +1,374 @@
+body main,
+body .haaad {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #111111;
+}
+
+body main a,
+body .haaad a {
+  text-decoration: none;
+  color: #003da5;
+}
+
+body main a:hover,
+body .haaad a:hover {
+  text-decoration: underline;
+}
+
+body main ol {
+  list-style: none;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+body main ol li {
+  line-height: 2em;
+  margin-bottom: 0.75rem;
+}
+
+body main h2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #111111;
+}
+
+body main p {
+  margin-top: 0.75rem;
+  color: #111111;
+  line-height: 1.5em;
+}
+
+.head {
+  background-image: none;
+  background-color: #fff;
+  border: none;
+  padding: 1.25rem 0rem;
+}
+
+.head .row {
+  padding: 0rem 0.75rem;
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+}
+
+.head .row:after,
+main section .sub-div:after,
+main .bottom-row::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+.head .row .med-head {
+  position: relative;
+}
+
+.head .row .med-head h1 {
+  font-size: 2.625rem;
+  clear: left;
+  color: #003da5;
+  padding-top: 0.25%;
+  font-weight: 400;
+}
+
+.head .row .med-head h1 a {
+  color: #3967c1;
+}
+
+main section {
+  padding: 0rem 0.75rem;
+}
+
+main section .sub-sec {
+  position: relative;
+  max-width: 1280px;
+  width: auto;
+  margin: 0 auto;
+}
+
+main section .sub-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section .sub-sec .left,
+main section .sub-sec .right,
+main section .sub-sec .cent,
+main section .sub-sec .d-1,
+main section .sub-sec .d-2,
+main section .sub-sec .c-1 {
+  padding-top: 2.5rem;
+  border-top: 1px solid #333;
+}
+
+main section .sub-sec .left {
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  flex-basis: 65.8%;
+}
+
+main section .contbox {
+  position: relative;
+  background: 0 0;
+  border-top: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+main section .sub-sec .sign-up_btn {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+main section .sub-sec .left ol {
+  column-count: 3;
+}
+
+main section .sub-sec .right {
+  flex-basis: calc(100% - 65.8% - 2.5%);
+  margin-left: 2.5%;
+}
+
+main section .sub-sec .right .primary-button,
+main section .sub-sec .d-2 ol .primary-button2 {
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  width: 95%;
+  background: #003da5;
+  color: #fff;
+  display: inline-block;
+}
+
+main section .sub-sec .right .center-link,
+body main ol .center-link {
+  text-align: center;
+}
+
+main section .sub-sec .right .center-link a,
+main section .sub-sec .d-2 ol .center-link a {
+  margin-top: 0.375rem;
+  display: inline-block;
+}
+
+main section .sub-sec .cent {
+  width: 100%;
+}
+
+main section .sub-sec .cent .img-box-left,
+main section .sub-sec .cent .img-box-right,
+main section .sub-sec .d-2 .img-box-left {
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  max-width: 48.5%;
+  width: auto;
+}
+
+main section .sub-sec .cent .img-box-right {
+  float: right;
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  margin-right: 0rem;
+}
+
+main section .sub-sec .cent img,
+main section .sub-sec .d-2 .img-box-left img {
+  float: none;
+  height: auto;
+  width: 100%;
+  display: block;
+  min-height: 1px;
+}
+
+main section .sub-sec .cent .img-left ol,
+main section .sub-sec .d-2 ol {
+  column-count: 2;
+}
+
+main section .sub-sec .d-1 {
+  flex-basis: calc(100% / 3 - 1.75%);
+}
+
+main section .sub-sec .d-1 .img-box,
+main section .sub-sec .c-1 .img-box {
+  line-height: 0;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+main section .sub-sec .d-1 .img-box img,
+main section .sub-sec .c-1 .img-box img {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+}
+
+main section .sub-sec .d-1-mr,
+main section .sub-sec .d-2,
+main section .sub-sec .c-1-mr {
+  margin-left: 2.5%;
+}
+
+main section .sub-sec .d-2 {
+  flex-basis: 65.8%;
+}
+
+main section .sub-sec .d-2 ol .primary-button2 {
+  background-color: transparent;
+  color: #003da5;
+  border: 1px solid #003da5;
+}
+
+main section .sub-sec .d-2-mr {
+  margin-left: 0rem;
+}
+
+main section .sub-sec .d-2-mr p {
+  color: #111111;
+}
+
+main section .linkbox p {
+  color: #3967c1;
+}
+
+main section .linkbox:hover {
+  text-decoration: none;
+}
+
+main section .linkbox:hover .action {
+  text-decoration: underline;
+}
+
+main section .sub-sec .c-1 {
+  flex-basis: calc(50% - 1.25%);
+}
+
+main section #pcol {
+  color: #111111;
+}
+
+main .bottom-row {
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+}
+
+main .bottom-row .root-row {
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+}
+
+main .bottom-row .root-row ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+main .bottom-row .root-row ul li {
+  float: left;
+  margin: 0;
+  line-height: 1.4em;
+}
+
+main .bottom-row .root-row ul li:nth-child(2) {
+  margin-left: 0.5rem;
+}
+
+main .bottom-row .root-row ul li:nth-child(2) a {
+  padding-left: 10px;
+}
+
+main .bottom-row .root-row ul li:nth-child(2) span {
+  position: absolute;
+  display: block;
+  background: url(../image/4886255CEFB640F581D9F3FD7D2E74E6.webp) no-repeat -65px -7px;
+  height: 8px;
+  left: 0;
+  top: 7px;
+  width: 4px;
+}
+
+main .bottom-row .root-row ul li a {
+  display: block;
+  position: relative;
+  font-size: 0.75rem;
+  color: #3967c1;
+}
+
+@media (min-width: 1281px) {
+  main section .sub-div:after {
+    height: auto;
+  }
+  main section {
+    padding: 0;
+  }
+  .head .row {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    padding: 0.75rem 0rem;
+  }
+  .head .row .med-head h1 {
+    font-size: 2rem;
+  }
+  main section .sub-div {
+    display: block;
+  }
+  main section .sub-sec .left,
+  main section .sub-sec .right,
+  main section .sub-sec .cent,
+  main section .sub-sec .d-1,
+  main section .sub-sec .d-2,
+  main section .sub-sec .c-1 {
+    padding-top: 1.5rem;
+  }
+  main section .sub-sec .left,
+  main section .sub-sec .d-1 {
+    padding-bottom: 1.5rem;
+  }
+  main section .sub-sec .left ol {
+    column-count: 2;
+  }
+  main section .sub-sec .right,
+  main section .sub-sec .d-1-mr,
+  main section .sub-sec .d-2,
+  main section .sub-sec .c-1-mr {
+    margin-left: 0;
+  }
+  main section .sub-sec .cent .img-left ol,
+  main section .sub-sec .d-2 ol {
+    column-count: 1;
+  }
+  #mx-wit {
+    float: left;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  #ibl {
+    padding-bottom: 1.5rem;
+  }
+  main section .sub-sec .c-1 {
+    padding-bottom: 1.5rem;
+  }
+  main .bottom-row .root-row ul li {
+    float: none;
+  }
+  main .bottom-row .root-row ul li:nth-child(2) {
+    margin-left: 0;
+  }
+}
