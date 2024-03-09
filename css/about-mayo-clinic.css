@@ -25,7 +25,7 @@
 }
 
 .page-links .pglink div span:nth-child(1) {
-  margin-top: 4px;
+  margin-top: 2px;
   display: none;
   transform: scaleX(-1);
   padding: 0rem 0.75rem;
@@ -42,7 +42,7 @@
 }
 
 .page-links .pglink div span:nth-child(3) {
-  margin-top: 4px;
+  margin-top: 2px;
   fill: var(--page-link-color);
 }
 
@@ -659,6 +659,12 @@
 }
 
 @media (max-width: 599px) {
+  .mayo-main {
+    padding-top: 0.5rem;
+  }
+  .page-links .pglink div {
+    gap: 0;
+  }
   .page-links .pglink div span:nth-child(3),
   .page-links .pglink div span:nth-child(4) {
     display: none;
@@ -674,7 +680,7 @@
     font-size: 3rem;
   }
   .section-img {
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 10 / 16;
   }
   .img3 {
     transform: translate3d(-306%, 0px, 0px);

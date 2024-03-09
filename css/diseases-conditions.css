@@ -1,0 +1,447 @@
+:root {
+  --page-link-color: #686868;
+  --page-link2-color: #0057bb;
+  --mayo-color: #080808;
+  --mayo-head-color: #008bcc;
+  --mayo-diseases-color: #000b6b;
+  --mayo-diseases-color2: #0057b8;
+  --link-hover: #1371d5;
+  --font-meyo: "mayo-display", Georgia, serif;
+  --font-meyo-sans: "mayo-sans", times, sans-serif;
+  --diseases-head-color: #ffffff;
+}
+
+main .diseases {
+  color: var(--diseases-head-color);
+  background: radial-gradient(
+    79.75% 134.25% at 95.71% 100%,
+    var(--mayo-diseases-color) 0%,
+    var(--mayo-diseases-color2) 100%
+  );
+}
+
+main .diseases .diseases-pa {
+  padding: 0.75rem 0rem;
+}
+
+main .diseases .diseases-pa2 {
+  padding: 0.5rem 1.25rem;
+}
+
+main .page-links,
+main .diseases .dis-flx .left-top,
+main .diseases .dis-flx .left-bottom,
+main .diseases .dis-flx .right-dis {
+  padding: 0.75rem;
+}
+
+main .page-links {
+  width: 100%;
+  margin: 0;
+}
+
+main .page-links .pglink {
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+}
+
+main .page-links .pglink div span:nth-child(2) a {
+  color: var(--diseases-head-color);
+}
+
+main .page-links .pglink div span:nth-child(3) {
+  fill: var(--diseases-head-color);
+}
+
+main .page-links .pglink div span:nth-child(4) {
+  color: var(--diseases-head-color);
+}
+
+main .diseases .dis-flx {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .diseases .dis-flx .left-dis,
+main .diseases .dis-flx .right-dis {
+  flex-basis: 50%;
+}
+
+main .diseases .dis-flx .left-dis .left-top-one h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-family: var(--font-meyo);
+}
+
+main .diseases .dis-flx .left-dis .left-top-two p {
+  font-size: 1.25rem;
+}
+
+main .diseases .dis-flx .left-dis .left-bottom-cont {
+  padding: 3rem 0rem;
+}
+
+main .diseases .dis-flx .left-dis .left-bottom-cont .left-bottom-one {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+main .diseases .left-bottom-two .search-dis {
+  position: relative;
+  display: flex;
+}
+
+main .diseases .left-bottom-two .search-dis .search-dis-icon {
+  position: absolute;
+  padding: 0.75rem 0;
+}
+
+main .diseases .left-bottom-two .search-dis .search-dis-icon .sdicon {
+  margin: 0 1rem;
+}
+
+main .diseases .left-bottom-two .search-dis .input-search {
+  padding: 1.25rem 2px 0.75rem 3rem;
+  border: none;
+  border-radius: 50rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+main .diseases .dis-flx .right-dis {
+  margin-inline-start: calc(25% / 3);
+  flex-basis: calc(50% - (25% / 3));
+}
+
+main .diseases .dis-flx .right-dis .right-info-top h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main .diseases .dis-flx .right-dis .right-info-main ul {
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: repeat(auto-fill, 48px);
+  list-style: none;
+  padding: 0;
+}
+
+main .diseases .dis-flx .right-dis .right-info-main li a {
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 48px;
+  max-width: 48px;
+  min-height: 48px;
+  max-height: 48px;
+}
+
+main .diseases .dis-flx .right-dis .right-info-main li a:hover {
+  background-color: rgba(225, 240, 255, 0.15);
+}
+
+main .hr-right {
+  display: none;
+  width: 100%;
+  opacity: 0.2;
+}
+
+main .hr-right hr {
+  height: 1px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+main .btn-ul {
+  display: none;
+}
+
+main .card .card-pa {
+  width: calc(100% / 1.5);
+}
+
+main .card .card-pa .card-flx .card-item {
+  flex-basis: 50%;
+}
+
+main .card .card-pa .card-flx .card-item2 {
+  flex-basis: 100%;
+}
+
+main .card .card-pa .card-flx .card-item2 .card-item-info2 {
+  display: flex;
+  padding: 0;
+  min-height: 292px;
+}
+
+main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-info,
+main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-img {
+  flex-basis: 50%;
+}
+
+main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-info {
+  padding: 2rem;
+}
+
+main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-img img,
+main .item-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+  position: relative;
+}
+
+main .card .card-pa .card-flx .card-item2 .card-item-info {
+  max-width: none;
+}
+
+main .card .card-pa .card-flx .card-item .card-item-info .item-info-content2 {
+  position: relative;
+  padding: 0;
+}
+
+main
+  .card
+  .card-pa
+  .card-flx
+  .card-item
+  .card-item-info
+  .item-info-content-edit
+  a {
+  color: #0057b8;
+  fill: #0057b8;
+  font-weight: 400;
+}
+
+main
+  .card
+  .card-pa
+  .card-flx
+  .card-item
+  .card-item-info
+  .item-info-content-edit2 {
+  position: relative;
+  padding: 0;
+}
+
+main .item-abs {
+  width: 50%;
+  position: absolute;
+  bottom: 30%;
+  padding: 1.5rem;
+  color: #ffffff;
+  z-index: 2;
+}
+
+main .item-abs a,
+main .display-item a {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+main .display-item {
+  display: none;
+  background-color: #012d61;
+  color: #ffffff;
+  position: relative;
+  top: -12px;
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+}
+
+main .item-img2 .shadow-img {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0) 82.18%,
+    rgba(0, 0, 0, 0) 82.18%
+  );
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+main .card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .policy {
+  flex-basis: calc(100% / 3);
+  height: fit-content;
+}
+
+main .policy .policy-pa {
+  padding: 2rem 0rem;
+}
+
+main .policy .policy-pa2 {
+  padding: 1.5rem 0.75rem 0.75rem;
+}
+
+main .policy .policy-mr {
+  max-width: 300px;
+  margin: 0 auto;
+  color: #595959;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+main .policy .policy-mr h3 {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+}
+
+main .policy .policy-mr .pol-ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 0.75rem;
+}
+
+main .policy .policy-mr .pol-ul li a {
+  color: #595959;
+}
+
+main .policy .policy-mr .pol-ul li a:hover {
+  color: #1371d5;
+}
+
+main .policy .policy-mr .pol-ul li .brd {
+  border-left: 1px solid #595959;
+  margin: 0rem 0.5rem;
+}
+
+.hr-f {
+  display: none;
+}
+
+@media (max-width: 904px) {
+  main .diseases .diseases-pa2 {
+    padding: 0.5rem 1rem;
+  }
+  main .page-links,
+  main .diseases .dis-flx .left-top,
+  main .diseases .dis-flx .left-bottom,
+  main .diseases .dis-flx .right-dis {
+    padding: 0.5rem;
+  }
+  main .diseases .dis-flx {
+    display: block;
+  }
+  main .diseases .dis-flx .right-dis {
+    margin-inline-start: 0;
+  }
+  main .diseases .dis-flx .left-dis .left-bottom-cont .left-bottom-one {
+    font-size: 1.125rem;
+  }
+  main .card .card-pa {
+    flex-basis: 100%;
+    padding: 2rem 0rem;
+  }
+  main .card {
+    justify-content: center;
+  }
+  main .item-abs {
+    width: 45%;
+    bottom: 20%;
+  }
+  main .policy {
+    flex-basis: 100%;
+  }
+  .hr-f {
+    display: block;
+    width: 100%;
+    padding: 0rem 1.75rem;
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 599px) {
+  main .page-links {
+    padding: 0.5rem 0;
+  }
+  main .page-links .pglink div span:nth-child(1) {
+    fill: var(--diseases-head-color);
+  }
+  main .hr-right {
+    display: block;
+  }
+  main .right-info-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+  main .btn-ul {
+    display: block;
+  }
+  main .diseases .dis-flx .right-dis .right-info-top h2 {
+    margin-bottom: 0;
+  }
+  main .diseases .dis-flx .right-dis .right-info-main ul {
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1rem 0rem 0.5rem;
+  }
+  main .right-info-top:hover .btn-ul svg {
+    transform: scaleY(-1);
+  }
+  main .right-info-main .right-info-top:hover ~ .right-info-bottom-list {
+    display: grid !important;
+  }
+  main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-img {
+    display: none;
+  }
+  main .card .card-pa .card-flx .card-item2 .card-item-info2 .item-info {
+    flex-basis: 100%;
+  }
+  main .card .card-pa .card-flx .card-item .card-item-info {
+    min-height: 332px;
+  }
+  main .card .card-pa .card-flx .card-item {
+    flex-basis: 100%;
+  }
+  main .card .card-pa .card-flx .card-item .card-item-info {
+    max-width: none;
+  }
+  main .card .card-pa .card-flx .card-item2 .card-item-info2 {
+    display: block;
+  }
+  main .item-abs {
+    display: none;
+  }
+  main .item-img2 .shadow-img {
+    display: none;
+  }
+  main .display-item {
+    display: block;
+  }
+  main
+    .card
+    .card-pa
+    .card-flx
+    .card-item
+    .card-item-info
+    .item-info-content-edit2 {
+    padding-top: 1.5rem;
+  }
+  main .policy .policy-pa2 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 359px) {
+  main .card .card-pa .card-flx {
+    margin: 0;
+  }
+  main .diseases .diseases-pa2 {
+    padding: 0.5rem 0rem;
+  }
+}
