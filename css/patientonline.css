@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "mayo-sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .header-logo {
+  padding: 0 0 0 1.5rem;
+}
+
+header .logo {
+  padding: 1.5rem 0;
+  margin-bottom: 32px;
+}
+
+header img {
+  width: 64px;
+  object-fit: cover;
+  height: 100%;
+  display: block;
+}
+
+main .section {
+  margin-top: 60px;
+}
+
+main .sect-cont {
+  margin: 0rem 1.5rem;
+  padding: 0rem 5rem;
+}
+
+main .sect-cont .sec-1 {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+main .sect-cont .sec-1 a {
+  color: #0057b8;
+}
+
+main .sect-cont .sec-2 {
+  font-size: 55px;
+  line-height: 1em;
+  font-weight: 400;
+  font-family: "mayo-display", serif;
+  margin-bottom: 1.5rem;
+}
+
+main .sect-cont .sec-2 span {
+  display: block;
+  font-size: 23px;
+  line-height: 1.5em;
+  font-family: "mayo-sans", sans-serif;
+}
+
+main .sect-cont .sec-3 {
+  display: flex;
+  align-items: center;
+  width: calc((100% - (40px * 2)) * (6 / 16) + (16px * 6));
+}
+
+main .sect-cont .sec-3 a,
+main .btn-cr2 {
+  background: #0057b8;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 999vw;
+  font-size: 17px;
+  border: 0;
+  line-height: 1em;
+  text-align: center;
+}
+
+main .sect-cont .sec-3 .log-btn {
+  margin-right: 1rem;
+  width: 50%;
+}
+
+main .sect-cont .sec-3 .log-btn:hover {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  background: #00418a;
+}
+
+main .sect-cont .sec-3 .create-btn,
+main .btn-cr2 {
+  background: none;
+  color: #0057b8;
+  border: 1px solid #0057b8;
+  width: 50%;
+  padding: 1rem;
+}
+
+main .sect-cont .sec-3 .create-btn:hover {
+  text-decoration: underline;
+}
+
+main .sect-cont .flx-one h2 {
+  margin-bottom: 2rem;
+  font-size: 29px;
+  line-height: 1.13em;
+  font-weight: 400;
+  font-family: "mayo-display", serif;
+}
+
+main .sect-cont .flx-two2 {
+  display: flex;
+}
+
+main .sect-cont .flx-two2 div {
+  padding: 24px 0 24px;
+  border-top: 1px solid;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-right: 80px;
+  flex-basis: calc(100% / 3);
+}
+
+#not-mr {
+  margin-right: 0;
+}
+
+main .sect-cont .flx-two2 div a {
+  display: flex;
+  color: #000;
+  padding-right: 24px;
+  position: relative;
+}
+
+main .sect-cont .flx-two2 div a::after {
+  content: "";
+  background: url(https://design.mayoclinic.org/assets/img/icons/arrow-caret.svg)
+    no-repeat;
+  width: 8px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+
+main .sect-cont .flx-two2 div a h3 {
+  font-size: 23px;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+main .sect-cont .flx-two2 div p {
+  color: #707070;
+  max-width: calc((100% - (24px * 2)) * 0.75 + 48px);
+}
+
+main .sect-cont .nag-img {
+  display: block;
+  aspect-ratio: auto;
+}
+
+main .sect-cont .nag-img .main-img {
+  margin-left: 0rem;
+}
+
+main .sect-cont .nag-img .cont-img {
+  width: calc((100% - (40px * 2)) * (5 / 16) + 80px);
+}
+
+main .sect-cont .nag-img .cont-img,
+main .sect-cont .nag-img .line-img {
+  padding: 0;
+}
+
+main .sect-cont .nag-img .line-img {
+  margin: 0rem 0rem 0rem 2rem;
+  bottom: 3rem;
+}
+
+main .btn-cr2 {
+  padding: 16px 32px;
+  width: 224px;
+  border-color: #ffffff;
+}
+
+main #btn-ct:hover {
+  text-decoration: none;
+}
+
+main #parg-img {
+  color: #ffffff;
+}
+
+#btn-ct {
+  font-size: 20px;
+}
+
+main .sect-cont .nag-img .cont-img .p-head {
+  font-size: 35px;
+  line-height: 1.05em;
+  font-family: "mayo-display", serif;
+  font-weight: 400;
+}
+
+main .section-app {
+  padding: 80px 0px;
+  background-color: #f6f6f6;
+}
+
+main .section-app .mayo-app {
+  background-image: url(https://design.mayoclinic.org/assets/img/icons/non-mayo-apps.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+main .section-app .mayo-app h2 {
+  font-size: 23px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+main .section-app .mayo-app h2 a {
+  color: #000;
+}
+
+main .section-app .mayo-app p {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #707070;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.footer {
+  padding: 40px 0px;
+  margin: 0px 24px;
+}
+
+.footer .foot {
+  padding: 30px 0px;
+  margin: 0px 64px;
+  position: relative;
+}
+
+.footer .foot-bot img {
+  border: 0px;
+  width: 49px;
+  height: 72px;
+  float: left;
+  margin: 2px 8px 2px 2px;
+}
+
+.footer .top-foot {
+  position: relative;
+}
+
+.footer .top-foot::after,
+.footer .foot-mid::after {
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+}
+
+.footer .foot-mid a {
+  font-size: 14px;
+}
+
+.footer .foot-bot {
+  padding: 40px 0px 0px;
+  font-size: 14px;
+}
+
+.footer .foot-bot p {
+  line-height: 1.5em;
+}
+
+.footer .foot-bot p:nth-child(3),
+.footer .foot-bot div {
+  margin-top: 40px;
+}
+
+.footer .foot-bot div {
+  max-width: 500px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  main .sect-cont .sec-3 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1055px) and (min-width: 768px) {
+  main .sect-header {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 1055px) {
+  main .sect-cont .sec-2 {
+    font-size: 44px;
+    line-height: 1.06em;
+  }
+  main .sect-cont .sec-2 span {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  main .sect-cont .flx-one h2 {
+    font-size: 23px;
+  }
+  main .sect-cont .flx-two2 div a h3 {
+    font-size: 18px;
+  }
+  main .sect-cont .flx-two2 div p {
+    font-size: 14px;
+  }
+  main .section-app .mayo-app p {
+    font-size: 14px;
+    width: calc((100% - (24px * 2)) * 0.75 + 48px);
+  }
+  .footer {
+    margin: 0px 40px;
+  }
+  .footer .foot {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1023px) {
+  main .sect-cont {
+    margin: 0px 40px;
+    padding: 0px;
+  }
+  header .header-logo {
+    padding: 0 0 0 40px;
+  }
+  main .sect-cont .flx-two2 div {
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .sect-cont .nag-img .main-img {
+    aspect-ratio: 12 / 16;
+  }
+  main .sect-cont .nag-img .cont-img {
+    width: 100%;
+  }
+  main .section-app .mayo-app h2 {
+    font-size: 18px;
+    width: calc((100% - (24px * 2)) * 0.75 + 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  main section {
+    margin-top: 40px !important;
+  }
+  main .sect-cont .sec-3 {
+    width: auto;
+  }
+  main .sect-cont {
+    width: auto;
+  }
+  main .sect-cont {
+    margin: 0px 24px;
+    padding: 0px;
+  }
+  header .header-logo {
+    padding: 0 0 0 24px;
+  }
+  main .sect-cont .flx-two2 {
+    display: block;
+  }
+  main .sect-cont .flx-two2 div {
+    width: 100%;
+  }
+  main .sect-cont .nag-img .cont-img .p-head {
+    font-size: 24px;
+  }
+  .footer {
+    margin: 0px 24px;
+  }
+  footer ul {
+    margin-top: 32px;
+    gap: 0;
+  }
+  footer ul li {
+    flex-basis: 50%;
+  }
+  .footer .foot-bot p:nth-child(2) {
+    margin-top: 32px;
+  }
+}
