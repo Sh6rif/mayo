@@ -1,0 +1,344 @@
+main {
+  margin: 22px 10% 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main a {
+  text-decoration: none;
+  color: #003da5;
+}
+
+.main {
+  margin-bottom: 1.5rem;
+}
+
+main .sec-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+main .sec-head a {
+  font-weight: 700;
+}
+
+main .sec-head .head-left h1 {
+  margin-bottom: 1.5rem;
+}
+
+main .sec-head .head-left h1 a {
+  font-size: 34px;
+}
+
+main .sec-head .print {
+  display: block;
+  font-size: 13px;
+  color: #717268;
+  padding-left: 20px;
+  background: url(../image/icn_print.webp) no-repeat;
+}
+
+main .sec-head .print:hover {
+  text-decoration: underline;
+}
+
+main .nav-sec {
+  width: 100%;
+}
+
+main .nav-sec .div2 {
+  display: flex;
+  position: relative;
+  gap: 24px;
+  margin-bottom: 10px;
+}
+
+main .nav-sec .div2 div {
+  font-size: 13px;
+  color: #003da5;
+  line-height: 2em;
+}
+
+main .nav-sec .div2 .nav-div {
+  border-bottom: 5px solid transparent;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+main .nav-sec .div2 div span:first-child {
+  margin-right: 3px;
+}
+
+main .nav-sec .div2 div svg {
+  padding-top: 6px;
+  fill: #003da5;
+}
+
+main .div2 .active.nav-div,
+main .nav-sec .div2 .nav-div:hover {
+  border-bottom-color: #003da5 !important;
+}
+
+main .lii1,
+main .lii2,
+main .lii3 {
+  visibility: hidden;
+  position: absolute;
+  top: 33px;
+  z-index: 3;
+}
+
+main .op:hover ~ .lii1,
+main .lii1:hover,
+main .wg:hover ~ .lii2,
+main .lii2:hover,
+main .cu:hover ~ .lii3,
+main .lii3:hover {
+  visibility: visible;
+}
+
+main .lii1 ul,
+main .lii2 ul,
+main .lii3 ul {
+  list-style: none;
+  padding: 12px 12px 4px 12px;
+  background-color: #f5f5f3;
+  border: 1px solid #e3e3e0;
+  width: auto;
+  max-width: 226px;
+}
+main .lii2 {
+  left: 124px;
+}
+main .lii3 {
+  left: 391px;
+}
+
+main .lii1 ul li,
+main .lii2 ul li,
+main .lii3 ul li {
+  margin: 0px 24px 12px 0px;
+  border-bottom: 5px solid transparent;
+  width: fit-content;
+}
+
+main .lii1 ul li:hover,
+main .lii2 ul li:hover,
+main .lii3 ul li:hover {
+  border-bottom-color: #003da5;
+}
+
+main .nav-sec .sec-div {
+  display: none;
+  padding: 12px;
+  margin-bottom: 10px;
+  color: #003da5;
+  outline: 1px solid #e3e3e0;
+}
+
+main .nav-sec .sec-div2 {
+  display: none;
+  cursor: pointer;
+}
+
+main .nav-sec .sec-div2:hover {
+  text-decoration: underline;
+}
+
+main .nav-sec .sec-ul {
+  display: none;
+  margin-top: 20px;
+}
+
+main .nav-sec .sec-div2:hover + .sec-ul,
+main .nav-sec .sec-ul:hover {
+  display: block;
+}
+
+main .nav-sec .sec-ul ul {
+  list-style: none;
+}
+
+main .nav-sec .sec-ul .ul-main {
+  padding: 0px 10px 5px 0px;
+}
+
+main .nav-sec .sec-ul ul li {
+  padding-top: 10px;
+}
+
+main .nav-sec .sec-ul ul ul {
+  padding: 5px 10px 5px 15px;
+}
+
+main .nav-sec .sec-ul ul ul li {
+  margin-bottom: 12px;
+}
+
+main .nav-sec .sec-ul ul ul li:hover {
+  text-decoration: underline;
+}
+
+main .nav-sec .sec-ul span {
+  color: #080808;
+  font-weight: 700;
+}
+
+main .div1 {
+  display: flex;
+  color: #080808;
+}
+
+main .div1 h1,
+main .div1 h2 {
+  font-size: 26px;
+  color: #54585a;
+  line-height: 31px;
+  margin-bottom: 24px;
+}
+
+main .div1 h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+main .div1 a {
+  text-decoration: underline;
+  color: #3967c1;
+}
+
+main .div1 a:hover {
+  text-decoration: none;
+}
+
+main .div1 ul {
+  list-style: none;
+  display: flex;
+  padding: 12px 0px 0px 0px;
+  margin-bottom: 24px;
+  gap: 24px;
+  font-size: 13px;
+}
+
+main .div1 ul li a {
+  position: relative;
+  color: #003da5;
+  padding-left: 24px;
+}
+
+main .div1 ul li a::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+}
+
+main .div1 ul li .facebook-ic::before {
+  background: url(../image/4886255CEFB640F581D9F3FD7D2E74E6.webp) no-repeat -92px
+    0;
+}
+
+main .div1 ul li .tweet-ic::before {
+  background: url(../image/4886255CEFB640F581D9F3FD7D2E74E6.webp) no-repeat -108px
+    0;
+}
+
+main .div1 .devel {
+  margin-bottom: 24px;
+}
+
+main .div1 p {
+  margin-bottom: 16px;
+}
+
+main .main-content {
+  margin-bottom: 24px;
+}
+
+main .main-content .div1-left {
+  margin: 0px 24px 24px 0px;
+}
+
+main .blink .bott-link {
+  border-top: 1px solid #e3e3e0;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #717268;
+}
+
+main .blink .bott-link ol {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+main .blink .bott-link ol a {
+  color: #717268;
+}
+
+main .blink .bott-link ol a:hover {
+  text-decoration: underline;
+}
+
+main .blink .bott-link .link-arrow {
+  padding-right: 18px;
+  background: url(../image/icon-breadcrumb.webp) no-repeat;
+  background-position: right 5px;
+}
+
+main .div1-right h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+main .div1-right .conact-cont {
+  border-top: 6px solid #ccd8ed;
+  padding-top: 20px;
+}
+
+main .div1-right .img-cont {
+  margin-bottom: 24px;
+}
+
+#selected {
+  border: none;
+  font-weight: 700;
+}
+
+@media (max-width: 820px) {
+  main {
+    margin: auto;
+  }
+  .main {
+    padding: 10px 12px 0px;
+  }
+  main .sec-head .print {
+    display: none;
+  }
+  main .nav-sec .div2 {
+    display: none;
+  }
+  main .nav-sec .sec-div {
+    display: block;
+  }
+  main .nav-sec .sec-div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .div1 {
+    display: block;
+  }
+  main .blink .bott-link {
+    flex-direction: column-reverse;
+  }
+  main .blink .bott-link span {
+    margin-bottom: 24px;
+  }
+}

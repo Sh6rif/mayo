@@ -142,7 +142,7 @@ nav .nav li span:-child {
 .mega-menu6 {
   position: absolute;
   left: 0;
-  top: 85px;
+  top: 109px;
   width: 100%;
   background-color: white;
   border-bottom: 3px solid var(--main-color);
@@ -548,6 +548,12 @@ nav .nav .li5:hover ~ .overlay5,
   .sty2 .links li {
     padding: 0rem 0rem 1.5rem 0.5rem;
   }
+  .sty2 .ulcont {
+    width: 100%;
+  }
+  .mega-menu6 {
+    top: 76px;
+  }
 }
 
 /* feedback button fixed */
@@ -561,6 +567,7 @@ nav .nav .li5:hover ~ .overlay5,
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
   position: fixed;
+  z-index: 10;
 }
 #feedback .feed_triangle {
   border-left: 81px solid transparent;
