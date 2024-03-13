@@ -142,7 +142,7 @@ nav .nav li span:-child {
 .mega-menu6 {
   position: absolute;
   left: 0;
-  top: 109px;
+  top: 108px;
   width: 100%;
   background-color: white;
   border-bottom: 3px solid var(--main-color);
@@ -512,12 +512,21 @@ nav .nav .li5:hover ~ .overlay5,
 .gi4 {
   border-bottom: none;
 }
+
 @media (max-width: 904px) {
   .pad {
     padding: 1rem 0rem;
   }
   .lf {
     margin: 0rem 1rem;
+  }
+  .mega-menu,
+  .mega-menu2,
+  .mega-menu3,
+  .mega-menu4,
+  .mega-menu5,
+  .mega-menu6 {
+    top: 92px;
   }
 }
 
