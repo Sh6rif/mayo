@@ -1,0 +1,257 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "mayo-sans", times, sans-serif;
+  margin: 0;
+  font-family: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Start patient centered care */
+.care {
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.care p {
+  color: #0057b8;
+}
+
+.care p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.care i {
+  padding: 0 15px;
+  color: #c1baba;
+}
+
+.care-info {
+  padding: 20px 300px 20px 95px;
+}
+
+.care-info h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.care-info p {
+  font-size: 25px;
+  line-height: 1.6;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+.care-info .link {
+  display: flex;
+  align-items: center;
+}
+
+.care-info .link a {
+  font-size: 20px;
+  padding-right: 15px;
+  color: #0057b8;
+}
+
+.care-info .link a:hover {
+  text-decoration: underline;
+}
+
+.care-info .link i {
+  color: #0057b8;
+}
+
+.video {
+  margin: 0 50px 70px 50px;
+
+  padding: 20px 300px 50px 150px;
+  border-bottom: 1px solid #ddd5d5;
+}
+
+.video iframe {
+  padding-bottom: 30px;
+  min-width: 1210px;
+  height: 680px;
+}
+
+@media (max-width: 1200px) {
+  .video iframe {
+    min-width: 700px;
+    height: 680px;
+  }
+}
+
+@media (max-width: 992px) {
+  .video iframe {
+    min-width: 500px;
+    height: 680px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video {
+    padding: 20px;
+  }
+  .video iframe {
+    min-width: 350px;
+    height: 680px;
+  }
+}
+
+.video .text h3 {
+  color: #595959;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.video .text p {
+  color: #595959;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.video .more {
+  display: flex;
+  color: #0057b8;
+}
+
+.video .more p {
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+.care-doc {
+  position: relative;
+  padding: 50px 200px;
+}
+
+.care-doc .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.care-doc .box .text {
+  flex: 0.6;
+}
+
+.care-doc .box .text h1 {
+  font-size: 45px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.care-doc .box .text p {
+  padding-bottom: 30px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.care-doc .box .text .more {
+  display: flex;
+  align-items: center;
+  color: #0057b8;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.care-doc .box .text .more p {
+  padding: 0 20px;
+  font-size: 21px;
+}
+
+.care-doc .box .text .more:hover p {
+  text-decoration: underline;
+}
+
+.care-doc .box .image img {
+  border-radius: 10px;
+  width: 450px;
+  height: 670px;
+}
+
+.advice {
+  background-color: rgba(0, 87, 184, 0.2);
+  margin: 0;
+  padding: 0;
+}
+
+.advice .container {
+  padding: 60px 0;
+  margin: 0 300px;
+}
+
+@media (max-width: 1200px) {
+  .advice .container {
+    margin: 0 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .advice .container {
+    margin: 0 80px;
+  }
+}
+
+.advice .container .intro p {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.advice .info img {
+  width: 80px;
+  clip-path: circle();
+}
+
+.advice .container .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.advice .container .info .name {
+  padding-left: 30px;
+}
+
+.advice .container .info .name > p {
+  font-weight: bold;
+  color: #686868;
+}
+
+.advice .container .info .name .more {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  color: #0057b8;
+  cursor: pointer;
+}
+
+.advice .container .info .name .more i {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.advice .container .info .name .more:hover p {
+  text-decoration: underline;
+}
+
+/* End patient centered care */
