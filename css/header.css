@@ -800,24 +800,24 @@ nav .nav .li5:hover ~ .overlay5,
   border-radius: 10px;
 }
 
-.links {
+.linkss {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 70px;
   padding: 50px 60px;
 }
 
-.links .box h1 {
+.linkss .box h1 {
   padding-bottom: 30px;
   font-weight: normal;
   font-size: 40px;
 }
 
-.links .box p {
+.linkss .box p {
   font-size: 20px;
 }
 
-.links .box .link {
+.linkss .box .link {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -828,13 +828,13 @@ nav .nav .li5:hover ~ .overlay5,
   cursor: pointer;
 }
 
-.links .box .link:hover p {
+.linkss .box .link:hover p {
   text-decoration: underline;
   transition: 0.2s;
   color: #5ca0e3;
 }
 
-.links .box .link i {
+.linkss .box .link i {
   font-size: 15px;
   font-weight: bold;
 }
