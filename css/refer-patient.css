@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "mayo-sans", times, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+/* Start refer-patient */
+
+.start {
+  margin: 20px 120px;
+}
+
+.start > p {
+  font-size: 19px;
+  color: #0057b8;
+}
+
+.start > h1 {
+  font-size: 40px;
+  letter-spacing: 1.4px;
+  padding-bottom: 20px;
+  color: #0057b8;
+}
+
+.start > p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.start > h1:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.start .titles {
+  display: flex;
+  width: 100%;
+  font-size: 19px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 15px 10px 0 10px;
+}
+
+.start .titles p {
+  padding: 10px 10px 20px 10px;
+  margin-right: 55px;
+  cursor: pointer;
+}
+
+.start .titles p:active {
+  border: 2px dashed #000;
+  padding-bottom: 18px;
+  padding-right: 7px;
+}
+
+.start .titles .one {
+  border-bottom: 5px solid #000;
+}
+
+.start .titles p:hover {
+  border-bottom: 5px solid #000;
+}
+
+.container {
+  margin: 5px 120px 20px 200px;
+}
+
+.container h1 {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+.container .subject {
+  display: flex;
+}
+
+.container .subject .info {
+  padding-right: 20px;
+  flex: 2;
+}
+
+.container .subject .description {
+  flex: 1;
+}
+
+.container .subject .description .download {
+  padding-bottom: 25px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.container .subject .description .download p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.container .subject .description .download p span {
+  color: #0057b8;
+  cursor: pointer;
+}
+
+.container .subject .description .download p span:hover {
+  text-decoration: underline;
+}
+
+.container .subject .description .download button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #0057b8;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.container .subject .description .download .down {
+  font-weight: normal;
+  color: #0057b8;
+  cursor: pointer;
+}
+
+.container .subject .description .download .down:hover {
+  text-decoration: underline;
+}
+
+.container .subject .description .text p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container .subject .description .text h3 {
+  padding: 20px 0;
+  font-size: 19px;
+}
+
+.container .subject .description .text span {
+  display: block;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.container .subject .info > span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.container .subject .info p {
+  font-size: 18px;
+}
+
+.container .subject .info .phone .box h2 {
+  padding: 25px 0;
+}
+
+.container .subject .info .phone .box span {
+  display: inline-block;
+  margin: 0;
+  color: #0057b8;
+  cursor: pointer;
+}
+.container .subject .info .phone .box span:hover {
+  text-decoration: underline;
+}
+
+.mayo h2 {
+  color: #0057b8;
+  cursor: pointer;
+  padding: 30px 0;
+}
+
+.mayo p {
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.mayo ul {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.mayo ul li {
+  padding-bottom: 10px;
+}
+
+.request .more {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  color: #0057b8;
+}
+
+.request .more p {
+  text-decoration: underline;
+  padding-right: 5px;
+}
+
+.request .text p {
+  padding: 20px 0;
+}
+
+.request .text ul {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.request .text ul li {
+  padding-bottom: 10px;
+}
+/* End refer-patient */
