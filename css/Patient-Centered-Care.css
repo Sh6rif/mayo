@@ -197,24 +197,24 @@ ul {
   padding: 0;
 }
 
-.advice .container {
+.advice .container2 {
   padding: 60px 0;
   margin: 0 300px;
 }
 
 @media (max-width: 1200px) {
-  .advice .container {
+  .advice .container2 {
     margin: 0 150px;
   }
 }
 
 @media (max-width: 767px) {
-  .advice .container {
+  .advice .container2 {
     margin: 0 80px;
   }
 }
 
-.advice .container .intro p {
+.advice .container2 .intro p {
   font-size: 40px;
   padding-bottom: 30px;
 }
@@ -224,22 +224,22 @@ ul {
   clip-path: circle();
 }
 
-.advice .container .info {
+.advice .container2 .info {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.advice .container .info .name {
+.advice .container2 .info .name {
   padding-left: 30px;
 }
 
-.advice .container .info .name > p {
+.advice .container2 .info .name > p {
   font-weight: bold;
   color: #686868;
 }
 
-.advice .container .info .name .more {
+.advice .container2 .info .name .more {
   padding-top: 10px;
   display: flex;
   align-items: center;
@@ -247,12 +247,12 @@ ul {
   cursor: pointer;
 }
 
-.advice .container .info .name .more i {
+.advice .container2 .info .name .more i {
   font-size: 14px;
   padding-left: 10px;
 }
 
-.advice .container .info .name .more:hover p {
+.advice .container2 .info .name .more:hover p {
   text-decoration: underline;
 }
 
@@ -353,34 +353,34 @@ ul {
   padding-bottom: 40px;
 }
 
-.resource .container {
+.resource .container2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 25px;
 }
 
-.resource .container .box {
+.resource .container2 .box {
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 767px) {
-  .resource .container .box {
+  .resource .container2 .box {
     padding: 20px;
   }
-  .resource .container {
+  .resource .container2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 25px;
   }
 }
 
-.resource .container .box > i {
+.resource .container2 .box > i {
   padding-bottom: 70px;
 }
 
-.resource .container .box .more {
+.resource .container2 .box .more {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -388,13 +388,13 @@ ul {
   cursor: pointer;
 }
 
-.resource .container .box .more:hover p {
+.resource .container2 .box .more:hover p {
   color: #0057b8;
   text-decoration: underline;
   transition: 0.2s;
 }
 
-.resource .container .box .more i {
+.resource .container2 .box .more i {
   font-size: 12px;
   color: #0057b8;
   padding-left: 5px;

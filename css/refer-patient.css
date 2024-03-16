@@ -77,49 +77,49 @@ ul {
   border-bottom: 5px solid #000;
 }
 
-.container {
+.container2 {
   margin: 5px 120px 20px 200px;
 }
 
-.container h1 {
+.container2 h1 {
   font-size: 45px;
   padding-bottom: 50px;
 }
 
-.container .subject {
+.container2 .subject {
   display: flex;
 }
 
-.container .subject .info {
+.container2 .subject .info {
   padding-right: 20px;
   flex: 2;
 }
 
-.container .subject .description {
+.container2 .subject .description {
   flex: 1;
 }
 
-.container .subject .description .download {
+.container2 .subject .description .download {
   padding-bottom: 25px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
 
-.container .subject .description .download p {
+.container2 .subject .description .download p {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 20px;
 }
-.container .subject .description .download p span {
+.container2 .subject .description .download p span {
   color: #0057b8;
   cursor: pointer;
 }
 
-.container .subject .description .download p span:hover {
+.container2 .subject .description .download p span:hover {
   text-decoration: underline;
 }
 
-.container .subject .description .download button {
+.container2 .subject .description .download button {
   width: 100%;
   padding: 5px;
   border-radius: 15px;
@@ -131,53 +131,53 @@ ul {
   margin-bottom: 15px;
 }
 
-.container .subject .description .download .down {
+.container2 .subject .description .download .down {
   font-weight: normal;
   color: #0057b8;
   cursor: pointer;
 }
 
-.container .subject .description .download .down:hover {
+.container2 .subject .description .download .down:hover {
   text-decoration: underline;
 }
 
-.container .subject .description .text p {
+.container2 .subject .description .text p {
   font-size: 18px;
   line-height: 1.4;
 }
 
-.container .subject .description .text h3 {
+.container2 .subject .description .text h3 {
   padding: 20px 0;
   font-size: 19px;
 }
 
-.container .subject .description .text span {
+.container2 .subject .description .text span {
   display: block;
   font-size: 25px;
   padding-top: 20px;
 }
 
-.container .subject .info > span {
+.container2 .subject .info > span {
   display: block;
   font-size: 15px;
   padding-bottom: 20px;
 }
 
-.container .subject .info p {
+.container2 .subject .info p {
   font-size: 18px;
 }
 
-.container .subject .info .phone .box h2 {
+.container2 .subject .info .phone .box h2 {
   padding: 25px 0;
 }
 
-.container .subject .info .phone .box span {
+.container2 .subject .info .phone .box span {
   display: inline-block;
   margin: 0;
   color: #0057b8;
   cursor: pointer;
 }
-.container .subject .info .phone .box span:hover {
+.container2 .subject .info .phone .box span:hover {
   text-decoration: underline;
 }
 
